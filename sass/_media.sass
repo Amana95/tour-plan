@@ -5,6 +5,8 @@
 @media (max-width: 992px)
     .container
         max-width: 760px
+    .logo
+        width: 132px
     .navbar
         &-top
             padding-top: 30px
@@ -18,7 +20,32 @@
         &__input
             max-width: 340px
 
-@media (max-width: 768px)
     .container
         max-width: 576px
         width: 92%
+    .navbar
+        &__search,&__user,&-bottom
+            display: none
+    .menu
+        &-button
+            display: flex
+            align-items: center
+            justify-content: space-between
+            flex-direction: column
+            width: 16px
+            height: 11px
+            border: none
+            cursor: pointer
+            background-color: #fff
+            &__line
+                width: 16px
+                height: 1px
+                background-color: $textcolor
+@media (max-width: 576px)
+    .logo
+        width: 99px
+@media (min-width: 320px) and (max-width: 480px)
+    .container
+        max-width: 280px
+    .logo
+        width: 99px
