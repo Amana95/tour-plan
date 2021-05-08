@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header {
   background-color: #fff;
 }
@@ -30,18 +34,27 @@ body {
   padding-bottom: 40px;
 }
 
+.header__search {
+  margin-left: 108px;
+  margin-right: auto;
+}
+
 .search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
 }
 
 .search__input {
   width: 350px;
-  height: 40px;
+  height: 100%;
+  padding-left: 23px;
+  padding-right: 75px;
   background-color: #f5fafe;
-  border-radius: 6px;
   border: none;
   font-size: 12px;
   line-height: 15px;
@@ -50,6 +63,37 @@ body {
 
 .search__button {
   position: absolute;
+  background-color: #EC1F46;
+  width: 65px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  border: none;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user__name {
+  margin-left: 18px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
