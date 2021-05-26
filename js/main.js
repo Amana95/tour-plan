@@ -8,3 +8,13 @@ const swiper = new Swiper('.swiper-container', {
     prevEl: '.slider-button--prev',
   },
 });
+const reviewsSlider = new Swiper('.reviews-container', {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.reviews-slider__button--next',
+    prevEl: '.reviews-slider__button--prev',
+  },
+});
