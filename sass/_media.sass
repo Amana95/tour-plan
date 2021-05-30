@@ -214,6 +214,8 @@
             &-group
                 flex-basis: 100%
 @media (max-width: 576px)
+    .container
+        width: 280px
     .logo
         width: 99px
     .hotel
@@ -263,9 +265,15 @@
 @media (min-width: 320px) and (max-width: 480px)
     .container
         max-width: 280px
+        margin: auto
     .logo
         width: 99px
     .reviews
         &-title
             font-size: 15px
             line-height: 23px
+    .breadcrumb
+        &-list
+            &__item
+            size: 8px
+            line-height: 10px

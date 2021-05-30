@@ -88,7 +88,7 @@
                <div class="hotel-info__text">
                    <div class="hotel-wrapper">
                    <div class="stars">
-                       <img src="img/Star.svg" alt="star">
+                       <img src="img/star.svg" alt="star">
                        <img src="img/star.svg" alt="star">
                        <img src="img/star.svg" alt="star">
                        <img src="img/star.svg" alt="star">
@@ -193,7 +193,10 @@
                 </span>
             </h2>
             <form action="#" class="subscribe newsletter__subscribe" data-aos="zoom-out-left">
-                <input type="text" class="subscribe__input" placeholder="Your email address">
+                <input type="text" class="subscribe__input " placeholder="Your email address"
+                name="email"
+                required
+                type="email">
                 <button class="subscribe__button">
                     Send
                 </button>
@@ -311,7 +314,7 @@
                 <div class="card activities__card" 
                 data-aos="fade-up" 
                 data-aos-delay="100">
-                    <img src="img/activity (1).png" alt="The curious corner of chamarel" class="card__image">
+                    <img src="img/activity-1.png" alt="The curious corner of chamarel" class="card__image">
                     <h3 class="card__title">
                         The curious corner of chamarel
                     </h3>
@@ -321,7 +324,7 @@
                 </div>
                 <div class="card activities__card" data-aos="fade-up" 
                 data-aos-delay="300">
-                    <img src="img/activity (2).png" alt="Gymkhana club golf course" class="card__image">
+                    <img src="img/activity-2.png" alt="Gymkhana club golf course" class="card__image">
                     <h3 class="card__title">
                         Gymkhana club golf  course
                     </h3>
@@ -331,7 +334,7 @@
                 </div>
                 <div class="card activities__card" data-aos="fade-up" 
                 data-aos-delay="500">
-                    <img src="img/activity (3).png" alt="Tamarind falls hikingtrip - full day" class="card__image">
+                    <img src="img/activity-3.png" alt="Tamarind falls hikingtrip - full day" class="card__image">
                     <h3 class="card__title">
                         Tamarind falls hikingtrip - full day
                     </h3>
@@ -341,7 +344,7 @@
                 </div>
                 <div class="card activities__card" data-aos="fade-up" 
                 data-aos-delay="700">
-                    <img src="img/activity (4).png" alt="The blue marine discovery quest" class="card__image">
+                    <img src="img/activity-4.png" alt="The blue marine discovery quest" class="card__image">
                     <h3 class="card__title">
                         The blue marine discovery quest
                     </h3>
@@ -462,13 +465,12 @@
                             required>
                         </div>
                         <div class="footer__input-group">
-                            <input type="text" 
+                            <input type="tel" 
                             class="input footer__input" 
                             data-mask="phone"
                             placeholder="Phone Number*" 
                             name="phone" 
-                            required
-                            type="tel">
+                            required>
                         </div>
                         <textarea placeholder="Message" class="message footer__message" name="message">
                         </textarea>
@@ -506,18 +508,16 @@
                 required
                 minlength="2"
                 >
-                <input type="text" 
+                <input type="tel" 
                 class="input modal__input" 
                 data-mask="phone"
                 placeholder="Phone Number*" 
                 name="phone"
-                required
-                type="tel">
-                <input type="text" 
+                required>
+                <input type="email" 
                 class="input modal__input" placeholder="Your email*" 
                 name="email"
-                required
-                type="email">
+                required>
                 <textarea cols="30" rows="10" placeholder="Message" class=" message modal__message" name="message">
                 </textarea>
                 <button class="button modal__button" type="submit">
@@ -550,19 +550,17 @@
                 required
                 minlength="2"
                 >
-                <input type="text" 
+                <input type="tel" 
                 class="input modal__input" 
                 data-mask="phone"
                 placeholder="Phone Number*" 
                 name="phone"
                 required
-                type="tel"
                 >
-                <input type="text" 
+                <input type="email" 
                 class="input modal__input" placeholder="Your email*" 
                 name="email"
-                required
-                type="email">
+                required>
                 <textarea cols="30" rows="10" placeholder="Message" class=" message modal__message" name="message">
                 </textarea>
                 <button class="button modal__button" type="submit">
