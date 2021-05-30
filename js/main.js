@@ -45,5 +45,28 @@ $(document).ready(function(){
       modalOverlay.removeClass('modal__overlay--visible');
       modalDialog.removeClass('modal__dialog--visible');
     }
+    //обработка форм
+    $('.form').each(function(){
+    $(this).validate({
+      errorClass:"invalid",
+      messages: {
+        name: {
+          required: "Укажите имя",
+          minlength:"Имя должно быть не короче двух символов"
+      },
+        email: {
+          required: "Email обязателен",
+          email: "Email должен быть следующего формата: name@domain.com"
+        },
+        phone:{
+          required: "Телефон обязателен",
+        },
+      },
+    });
+  });
+  //Код jQuery, установливающий маску для ввода телефона элементу input
+$(function(){
+  $('[data-mask=phone]').mask("+7(999) 999-99-99");
+});
   });
 
