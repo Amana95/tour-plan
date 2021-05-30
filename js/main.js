@@ -68,5 +68,6 @@ $(document).ready(function(){
 $(function(){
   $('[data-mask=phone]').mask("+7(999) 999-99-99");
 });
+  AOS.init();
   });
 
