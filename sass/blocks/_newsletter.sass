@@ -39,7 +39,6 @@
   width: 355px
   height: 55px
   border-radius: 4px
-  overflow: hidden
   &__input
     position: absolute
     width: 100%
@@ -61,3 +60,7 @@
     background-color: $primarycolor
     color: $light
     cursor: pointer
+    z-index: 99
+    &:hover
+      background-color: green
+      border: 3px dashed black

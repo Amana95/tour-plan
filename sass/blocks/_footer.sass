@@ -63,14 +63,20 @@
     &--mb-2
       margin-bottom: 20px
   &__icon
+    border-radius: 50%
+    &:hover
+      border: 2px solid red
     &-wrapper
       width: 40px
+
   &__text
     color: $footer-text-color
     margin-bottom: 22px
   &__link
     text-decoration: none
     color: inherit
+    &:hover
+      color: red
   &__input
     width: 100%
     &-group
@@ -88,6 +94,8 @@
   &__phone
     text-decoration: none
     color: inherit
+    &:hover
+      color: red
   &-bottom
     display: flex
     justify-content: space-between
@@ -111,3 +119,5 @@
       font-weight: normal
       font-size: 12px
       line-height: 15px
+      &:hover
+        color: red

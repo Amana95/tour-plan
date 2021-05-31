@@ -120,8 +120,16 @@ img {
   font-family: 'Mulish';
 }
 
+.navbar-menu__item:hover {
+  color: red;
+}
+
 .navbar-menu__item--mobile_hidden {
   display: none;
+}
+
+.navbar-bottom--visible {
+  overflow: scroll;
 }
 
 .logo {
@@ -161,6 +169,11 @@ img {
   border: none;
 }
 
+.search__button:hover {
+  background-color: green;
+  border: 3px dashed black;
+}
+
 .user {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,6 +198,10 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #333333;
+}
+
+.user__name:hover {
+  text-decoration: underline;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -556,6 +573,10 @@ template {
   margin-right: 2px;
 }
 
+.breadcrumb-list__item:hover {
+  color: #b2b0a9;
+}
+
 .breadcrumb-list__link {
   text-decoration: none;
   color: inherit;
@@ -918,7 +939,6 @@ template {
   width: 355px;
   height: 55px;
   border-radius: 4px;
-  overflow: hidden;
 }
 
 .subscribe__input {
@@ -944,6 +964,12 @@ template {
   background-color: #EC1F46;
   color: #fff;
   cursor: pointer;
+  z-index: 99;
+}
+
+.subscribe__button:hover {
+  background-color: green;
+  border: 3px dashed black;
 }
 
 .reviews {
@@ -1313,6 +1339,14 @@ template {
   margin-bottom: 20px;
 }
 
+.footer__icon {
+  border-radius: 50%;
+}
+
+.footer__icon:hover {
+  border: 2px solid red;
+}
+
 .footer__icon-wrapper {
   width: 40px;
 }
@@ -1325,6 +1359,10 @@ template {
 .footer__link {
   text-decoration: none;
   color: inherit;
+}
+
+.footer__link:hover {
+  color: red;
 }
 
 .footer__input {
@@ -1354,6 +1392,10 @@ template {
 .footer__phone {
   text-decoration: none;
   color: inherit;
+}
+
+.footer__phone:hover {
+  color: red;
 }
 
 .footer-bottom {
@@ -1395,6 +1437,14 @@ template {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
+}
+
+.footer-bottom__link:hover {
+  color: red;
+}
+
+.modal {
+  overflow: scroll;
 }
 
 .modal__overlay {

@@ -26,6 +26,13 @@ $(document).ready(function(){
     document
     $(".navbar-bottom").toggleClass("navbar-bottom--visible");
   });
+//добавление скролла
+  $('.navbar-bottom--visible').scroll(function() {
+ $('#log').append('<div>Handler for .scroll() called.</div>');
+});
+
+
+
 
   var modalButton = $('[data-toggle=modal]');
   var closeModalButton = $(".modal__close");
