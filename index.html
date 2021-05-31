@@ -199,6 +199,7 @@
                 placeholder="Your email address"
                 name="email"
                 required
+                data-mask="email"
                 >
                 <button class="subscribe__button" type="submit">
                     Send
@@ -441,16 +442,17 @@
                             <div class="footer__icon-wrapper">
                                 <img src="img/phone-logo.svg" alt="icon: phone-logo">
                             </div>
-                           <p>Tel (business hours): <a class ="footer__phone" href="tel:269 1500">269 1500</a><br></p> 
-                           <p> Tel (hotline) Monday - Saturday:<a class ="footer__phone" href="tel:52-56-61-38"> 52-56-61-38</a> (08:00 am – 20:00 pm)<br></p>
-                            <p> Tel (hotline) Sunday:
-                             <a class ="footer__phone" href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 14:00 pm)</p> 
+                            <div class="footer__item-phone">
+                                Tel (business hours): <a href="tel:269 1500" class ="footer__phone" >269 1500</a><br>
+                                Tel (hotline) Monday - Saturday: <a href="tel:52-56-61-38" class ="footer__phone" >52-56-61-38 (08:00 am – 20:00 pm)</a><br>
+                                Tel (hotline) Sunday: <a href="tel:52-56-61-38" class ="footer__phone" >52-56-61-38</a> (08:00 am – 14:00 pm)<br>
+                            </div>
                         </li>
                         <li class="footer__item footer__item--mb-2">
                             <div class="footer__icon-wrapper">
                              <img src="img/message.svg" alt="icon: message ">
                             </div>
-                            cherly.lawson@example.com
+                            <a href="mailto: cherly.lawson@example.com">cherly.lawson@example.com</a>
                         </li>
                     </ul>
                 </div>
