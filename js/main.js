@@ -64,6 +64,17 @@ $(document).ready(function(){
       },
     });
   });
+
+   //обработка форм
+   $('.newsletter__subscribe').validate({
+      messages: {
+        email: {
+          required: "Email is required",
+          email: "Email should be in the following format: name@domain.com"
+        },
+      },
+    });
+
   //Код jQuery, установливающий маску для ввода телефона элементу input
 $(function(){
   $('[data-mask=phone]').mask("+7(999) 999-99-99");
