@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Mulish, sans-serif';
+  font-family: 'Mulish', sans-serif;
   background-color: #F5FAFE;
 }
 
@@ -544,17 +544,21 @@ template {
 
 .breadcrumb-list__item {
   font-family: 'Mulish';
-  size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
   line-height: 13px;
+  color: #0A223D;
 }
 
 .breadcrumb-list__item:not(:last-child)::after {
   content: '/';
-  margin-right: 4px;
+  margin-right: 2px;
 }
 
 .breadcrumb-list__link {
   text-decoration: none;
+  color: inherit;
 }
 
 .hotel {
@@ -623,6 +627,7 @@ template {
 }
 
 .hotel-right {
+  font-family: 'Nunito';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,7 +668,7 @@ template {
   line-height: 10px;
 }
 
-.rating__counter {
+.rating__text__counter {
   font-size: 14px;
   line-height: 18px;
 }
@@ -835,6 +840,7 @@ template {
 }
 
 .booking__button {
+  font-family: 'Nunito';
   width: 100%;
   min-height: 45px;
   border-radius: 4px;
@@ -1378,6 +1384,12 @@ template {
 
 .footer-bottom__item {
   list-style: none;
+}
+
+.footer-bottom__link {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
