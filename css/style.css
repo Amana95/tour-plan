@@ -1507,6 +1507,7 @@ template {
 @media (max-width: 992px) {
   .container, .newsletter-wrapper {
     max-width: 760px;
+    width: 92%;
   }
   .logo {
     width: 132px;
@@ -1517,10 +1518,6 @@ template {
   }
   .navbar__search {
     margin-left: auto;
-  }
-  .navbar-menu {
-    padding-top: 22px;
-    padding-bottom: 22px;
   }
   .navbar-menu__link {
     font-size: 12px;
@@ -1564,8 +1561,9 @@ template {
     margin-bottom: 20px;
   }
   .card {
-    width: 340px;
-    height: 340px;
+    width: 48%;
+    min-width: 350px;
+    height: 255px;
   }
   .footer-wrapper {
     -ms-grid-columns: (1fr)[6];
@@ -1804,7 +1802,8 @@ template {
 
 @media (max-width: 576px) {
   .container {
-    width: 280px;
+    max-width: 570px;
+    width: 92%;
   }
   .logo {
     width: 99px;
@@ -1879,7 +1878,8 @@ template {
     display: block;
   }
   .footer-bottom__list {
-    width: 250px;
+    width: 100%;
+    padding: 0;
   }
   .search__input {
     width: 243px;
@@ -1891,8 +1891,7 @@ template {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
-    max-width: 280px;
-    margin: auto;
+    width: 90%;
   }
   .logo {
     width: 99px;
@@ -1901,9 +1900,19 @@ template {
     font-size: 15px;
     line-height: 23px;
   }
-  .breadcrumb-list {
+  .breadcrumb-list__item {
     size: 8px;
     line-height: 10px;
+  }
+  .footer-bottom {
+    display: block;
+  }
+  .footer-bottom__list {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-bottom__item {
+    margin-right: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
