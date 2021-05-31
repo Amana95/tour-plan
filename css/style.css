@@ -537,6 +537,7 @@ template {
 }
 
 .breadcrumb-list__item {
+  font-family: 'Mulish, sans-serif';
   size: 10px;
   line-height: 13px;
 }
