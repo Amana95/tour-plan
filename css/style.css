@@ -537,7 +537,7 @@ template {
 }
 
 .breadcrumb-list__item {
-  font-family: 'Mulish, sans-serif';
+  font-family: 'Mulish';
   size: 10px;
   line-height: 13px;
 }
@@ -879,7 +879,7 @@ template {
 
 .newsletter-title {
   color: #fff;
-  font-family: Mulish;
+  font-family: 'Mulish, sans-serif';
   font-style: Light;
   font-size: 24px;
   line-height: 30px;
@@ -887,7 +887,7 @@ template {
 
 .newsletter-title__strong {
   display: block;
-  font-family: Mulish;
+  font-family: 'Mulish, sans-serif';
   font-style: SemiBold;
   font-size: 36px;
   line-height: 45px;
@@ -1123,7 +1123,7 @@ template {
 }
 
 .card__button {
-  font-family: Nunito;
+  font-family: 'Nunito, sans-serif';
 }
 
 .card__button:hover {
