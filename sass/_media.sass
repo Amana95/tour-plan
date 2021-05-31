@@ -213,6 +213,9 @@
         &__input
             &-group
                 flex-basis: 100%
+        &-bottom
+            max-width: 570px
+            width: 92%
 @media (max-width: 576px)
     .container
         width: 280px
@@ -225,6 +228,8 @@
         padding: 76px 0 83px 0
         &__title
             margin-bottom: 37px
+        &-wrapper
+            max-width: 280px
     .subscribe
         width: 100%
     .reviews
@@ -259,9 +264,15 @@
             &-form
                 grid-row: 7
                 grid-column: 1
+        &-bottom
+            display: block
+            &__list
+                width: 250px
     .search
         &__input
             width: 243px
+        &-list
+            max-width: 90%
 @media (min-width: 320px) and (max-width: 480px)
     .container
         max-width: 280px

@@ -51,15 +51,15 @@ $(document).ready(function(){
       errorClass:"invalid",
       messages: {
         name: {
-          required: "Укажите имя",
-          minlength:"Имя должно быть не короче двух символов"
+          required: "Please enter your name",
+          minlength:"The name must be at least two characters"
       },
         email: {
-          required: "Email обязателен",
-          email: "Email должен быть следующего формата: name@domain.com"
+          required: "Email is required",
+          email: "Email should be in the following format: name@domain.com"
         },
         phone:{
-          required: "Телефон обязателен",
+          required: "Phone is required",
         },
       },
     });
