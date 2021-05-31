@@ -116,6 +116,10 @@ img {
   line-height: 18px;
 }
 
+.navbar-menu__item {
+  font-family: 'Mulish';
+}
+
 .navbar-menu__item--mobile_hidden {
   display: none;
 }
@@ -141,6 +145,7 @@ img {
   padding-right: 75px;
   background-color: #f5fafe;
   border: none;
+  font-family: 'Mulish';
   font-size: 12px;
   line-height: 15px;
   color: #333333;
@@ -175,6 +180,7 @@ img {
 }
 
 .user__name {
+  font-family: 'Mulish';
   margin-left: 18px;
   font-size: 14px;
   line-height: 17px;
@@ -575,8 +581,14 @@ template {
 }
 
 .hotel-info__name {
+  font-family: 'Mulish';
   margin-top: 4px;
   margin-bottom: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .hotel-name {
@@ -596,6 +608,7 @@ template {
 }
 
 .hotel-description {
+  font-family: 'Mulish';
   font-size: 12px;
   line-height: 15px;
 }
@@ -879,7 +892,7 @@ template {
 
 .newsletter-title {
   color: #fff;
-  font-family: 'Mulish, sans-serif';
+  font-family: 'Mulish';
   font-style: Light;
   font-size: 24px;
   line-height: 30px;
@@ -887,7 +900,7 @@ template {
 
 .newsletter-title__strong {
   display: block;
-  font-family: 'Mulish, sans-serif';
+  font-family: 'Mulish';
   font-style: SemiBold;
   font-size: 36px;
   line-height: 45px;
@@ -931,6 +944,7 @@ template {
 }
 
 .reviews-title {
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -1061,6 +1075,7 @@ template {
 }
 
 .reviews-slider__text {
+  font-family: 'Mulish';
   max-width: 537px;
   margin: auto;
   font-style: normal;
@@ -1075,6 +1090,7 @@ template {
 }
 
 .activities__title {
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -1257,6 +1273,7 @@ template {
 }
 
 .footer__title {
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1271,6 +1288,7 @@ template {
 }
 
 .footer__item {
+  font-family: 'Mulish';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
