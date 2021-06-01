@@ -90,6 +90,10 @@
             &-form
                 grid-column: span 5
                 grid-row: 4
+    .modal
+        &__info
+            display: block
+            margin-top: 5px
 @media (max-width: 768px)
     .container
         max-width: 576px
@@ -216,6 +220,9 @@
         &-bottom
             max-width: 570px
             width: 92%
+    .modal
+        &__dialog
+            padding: 33px 50px
 @media (max-width: 576px)
     .container
         max-width: 570px
@@ -276,6 +283,9 @@
             width: 243px
         &-list
             max-width: 90%
+    .modal
+        &__dialog
+            padding: 33px 25px
 @media (min-width: 320px) and (max-width: 480px)
     .container
         width: 92%
@@ -322,7 +332,8 @@
     .footer
         &__icon
             &:hover
-                border: 2px solid red
+                opacity: 0.5
+                filter: alpha(opacity=50)
         &__link
             &:hover
                 color: red

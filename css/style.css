@@ -1155,7 +1155,7 @@ template {
 }
 
 .card__button {
-  font-family: 'Nunito, sans-serif';
+  font-family: 'Nunito';
 }
 
 .card__image {
@@ -1274,6 +1274,9 @@ template {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .footer__ul {
@@ -1617,6 +1620,10 @@ template {
     -ms-grid-row: 4;
     grid-row: 4;
   }
+  .modal__info {
+    display: block;
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1804,6 +1811,9 @@ template {
     max-width: 570px;
     width: 92%;
   }
+  .modal__dialog {
+    padding: 33px 50px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1893,6 +1903,9 @@ template {
   .search-list {
     max-width: 90%;
   }
+  .modal__dialog {
+    padding: 33px 25px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1944,7 +1957,8 @@ template {
     color: #b2b0a9;
   }
   .footer__icon:hover {
-    border: 2px solid red;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
   }
   .footer__link:hover {
     color: red;
