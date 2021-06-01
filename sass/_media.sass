@@ -58,9 +58,9 @@
         &__card
             margin-bottom: 20px
     .card
-        width: 48%
-        min-width: 350px
-        height: 255px
+        width: 340px
+        height: 250px
+
     .footer
         &-wrapper
             grid-template-columns: repeat(6, 1fr)
@@ -207,7 +207,7 @@
         padding-top: 40px
         padding-bottom: 60px
     .card
-        width: 47%
+        width: 49%
         height: 255px
     .footer
         &__input
@@ -278,7 +278,7 @@
             max-width: 90%
 @media (min-width: 320px) and (max-width: 480px)
     .container
-        width: 90%
+        width: 92%
     .logo
         width: 99px
     .reviews
@@ -298,3 +298,54 @@
                 padding: 0
             &__item
                 margin-right: 2px
+@media (max-height: 600px)
+       .modal
+           &__dialog 
+                max-height: 100%
+                overflow: scroll
+
+@media (min-width: 992px)  
+    .button
+        &:hover
+            background: rgba(0,0,0,0)
+            box-shadow: inset 0 0 0 3px #3a7999     
+    .card  
+        &__button
+            &:hover 
+                background: rgba(0,0,0,0)
+                box-shadow: inset 0 0 0 3px #3a7999    
+    .breadcrumb
+        &-list
+            &__item
+                &:hover
+                    color: #b2b0a9 
+    .footer
+        &__icon
+            &:hover
+                border: 2px solid red
+        &__link
+            &:hover
+                color: red
+        &__phone
+            &:hover
+                color: red
+    .search
+        &__button
+            &:hover
+                background-color: green
+                border: 3px dashed black
+    .navbar
+        &-menu
+            &__item
+                &:hover
+                    color: red
+    .user
+        &__name
+            &:hover
+                text-decoration: underline
+
+    .subscribe
+        &__button
+            &:hover
+                background-color: green
+                border: 3px dashed black
